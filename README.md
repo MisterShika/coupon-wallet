@@ -27,7 +27,25 @@ Users will also have a list of vendors they "follow" or "subscribe" to.</p>
     <li>Users receive experience according to the coupon.</li>
 </ol>
 
+### Color Notes (So I don't forget)
 
+Greens
+<ul>
+    <li>#323620</li>
+    <li>#445117</li>
+    <li>#67793B</li>
+    <li>#809A67</li>
+    <li>#C7DABC</li>
+</ul>
+
+Oranges
+<ul>
+    <li>#F27227</li>
+    <li>#FF9900</li>
+    <li>#FFB347</li>
+    <li>#FFCC66</li>
+    <li>#FFDAB9</li>
+</ul>
 
 
 ## (Saving all of these JUST IN CASE I forget)

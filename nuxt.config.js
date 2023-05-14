@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'coupon-wallet',
+    title: 'Coupon Wallet Project',
     htmlAttrs: {
       lang: 'en'
     },
@@ -18,6 +18,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '~/assets/app.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
