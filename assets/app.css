@@ -1,3 +1,21 @@
-h1{
-    color:red;
+
+#mainh1{
+	font-family: 'Lobster', cursive;
+	font-size: 5em;
+}
+
+form label{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 2em;
+}
+
+.disabled-link{
+	color: blue;
+	text-decoration: underline;
+}
+
+
+.custom-spin{
+	-webkit-animation: fa-spin 10s infinite linear !important;
+	animation: fa-spin 10s infinite linear !important;
 }

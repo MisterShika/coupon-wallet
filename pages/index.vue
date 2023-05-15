@@ -1,10 +1,18 @@
 <template>
   <div>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
-    <div>
-        <h1>Coupon Wallet</h1>
-        <login />
-        <a href="#">Create an account (disabled)</a>
+    <div class="h-screen flex items-center justify-center text-center bg-yellow-100">
+      <div class="bg-white rounded-2xl border border-gray-200 p-10">
+          <h1 id="mainh1">Coupon Wallet</h1>
+          <client-only><span class="fa-stack fa-5x">
+            <font-awesome-icon icon="certificate" class="fa-solid fa-certificate fa-stack-2x custom-spin text-yellow-300" />
+            <font-awesome-icon icon="wallet" class="fa-solid fa-wallet fa-stack-1x text-red-600" />
+          </span></client-only>
+          <login />
+      </div>
     </div>
   </div>
 </template>
