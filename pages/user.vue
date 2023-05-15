@@ -1,23 +1,24 @@
 <template>
     <div>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Condensed&display=swap" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
         
+
+
         <div v-if="this.$store.state.loggedIn.loggedStatus">
-            <h1>Hi! You're logged in!</h1>
             <ul>
                 <li v-for="(value, key) in getCouponsOwned" :key="key">
                     <single-coupon :passedCoupon="value" />
                 </li>
             </ul>
-            <aside>
-                <sidebar />
-            </aside>
         </div>
+        <aside>
+            <sidebar :passedUserID="this.$store.state.loggedIn.loggedID" v-if="this.$store.state.loggedIn.loggedID" />
+            <sidebar v-else />
+        </aside>
 
-        <div v-if="!this.$store.state.loggedIn.loggedStatus">
-            <h1>Hi! You're NOT logged in!</h1>
-            <login />
-        </div>
     </div>
 </template>
   
