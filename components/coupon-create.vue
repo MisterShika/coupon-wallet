@@ -1,24 +1,21 @@
 <template>
     <div>
-
-        {{ this.passedVendorID }}
-        
         <form @submit.prevent="couponFormSubmit" class="pt-4 text-center">
-            <div>
-                <label>Coupon Name:</label><br />
+            <div class="my-4">
+                <label class="text-3xl">Coupon Name:</label><br />
                 <input type="text" v-model="couponName" class="rounded-lg border border-red-300 text-center" placeholder="Name">
             </div>
-            <div>
-                <label>Coupon Description:</label><br />
+            <div class="my-4">
+                <label class="text-3xl">Coupon Description:</label><br />
                 <textarea type="text" v-model="couponDescription" class="rounded-lg border border-red-300 text-center" placeholder="Please enter a description."></textarea>
             </div>
-            <div>
-                <label>Upload Image (disabled):</label><br />
-                <input type="file">
+            <div class="my-4">
+                <label class="text-3xl">Upload Image (disabled):</label><br />
+                <input class="w-48 md:w-52" type="file">
             </div>
-            <div>
-                <label>Coupon EXP:</label><br />
-                <input type="number" v-model="couponEXP" class="rounded-lg border border-red-300 text-center" placeholder="100">
+            <div class="my-4">
+                <label class="text-3xl">Coupon EXP:</label><br />
+                <input type="number" v-model="couponEXP" class="rounded-lg border border-red-300 text-center " placeholder="100">
             </div>
 
             <!-- 
@@ -39,7 +36,7 @@
             </div> 
             -->
 
-            <button type="submit" class="cursor-pointer rounded-3xl text-white bg-red-400 py-2.5 px-5 my-4 hover:bg-red-600">Create Coupon</button>
+            <button type="submit" class="cursor-pointer rounded-3xl text-white bg-red-400 py-2.5 px-5 my-4 hover:bg-red-600 duration-500">Create Coupon</button>
         </form>
 
     </div>
@@ -81,7 +78,7 @@
                     description: this.couponDescription,
                     img: "/stock/placeholder.gif",
                     vendorID: this.passedVendorID,
-                    EXP: this.couponEXP
+                    EXP: parseInt(this.couponEXP)
                 };
                 this.$store.commit('addCouponByLevel', coupon);
             },

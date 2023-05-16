@@ -8,7 +8,7 @@
 
     <div class="h-screen flex items-center justify-center text-center bg-yellow-100">
       <div class="bg-white rounded-2xl border border-gray-200 p-10">
-          <h1 id="mainh1">Coupon Wallet</h1>
+          <h1 class="text-7xl p-3">Coupon Wallet</h1>
           <!-- Have to use client-only because Vue is giving some sort of error only for Fontawesome icons -->
           <client-only><span class="fa-stack fa-5x">
             <font-awesome-icon icon="certificate" class="fa-solid fa-certificate fa-stack-2x custom-spin text-yellow-300" />

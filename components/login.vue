@@ -1,15 +1,15 @@
 <template>
-    <div class="text-center">
+    <div>
         <form @submit.prevent="submitForm" class="pt-4 ">
           <div>
-              <label>Username:</label><br />
-              <input type="text" v-model="username" class="rounded-lg border border-red-300 ">
+              <label class="text-3xl">Username:</label><br />
+              <input type="text" v-model="username" class="rounded-lg border border-red-300 text-center">
           </div>
           <div>
-              <label>Password:</label><br />
-              <input type="password" v-model="password" class="rounded-lg border border-red-300 ">
+              <label class="text-3xl">Password:</label><br />
+              <input type="password" v-model="password" class="rounded-lg border border-red-300 text-center">
           </div>
-          <button type="submit" class="cursor-pointer rounded-3xl text-white bg-red-400 py-2.5 px-5 my-4 hover:bg-red-600">Login</button>
+          <button type="submit" class="cursor-pointer rounded-3xl text-white bg-red-400 py-2.5 px-5 my-4 hover:bg-red-600 duration-500">Login</button>
         </form>
         <a href="#" class="text-blue-500 underline">Create an account (disabled)</a>
     </div>

@@ -1,11 +1,12 @@
 <template>
     <div>
         <div>
-            <span v-if="this.passedUserType === 'user'">Following:</span>
+            <hr class="border-2 border-red-400 rounded-3xl my-2" />
+            <span v-if="this.passedUserType === 'user'" class="text-lg following-text">Following:</span>
             <span v-if="this.passedUserType === 'vendor'">Followed By:</span>
-            <ul>
+            <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-3 h-72 overflow-scroll overflow-x-hidden md:h-auto border border-red-300 rounded-xl bg-yellow-50">
                 <li v-for="follower in followList" :key="follower.id">
-                    <img :src="follower.img" :alt="follower.userName" />
+                    <img :src="follower.img" :alt="follower.userName" class="rounded-xl"/>
                 </li>
             </ul>
         </div>

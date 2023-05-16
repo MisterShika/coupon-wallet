@@ -25,45 +25,45 @@ export const state = () => ({
     ],
 
     coupons: [
-        {couponID: 1, couponName: "Tacos Coupon Small", description: "This is a coupon for a SMALL price reduction on tacos.", img: "/stock/tacos.jpg", vendorID: 6, EXP: 100},
-        {couponID: 2, couponName: "Tacos Coupon Medium", description: "This is a coupon for a MEDIUM price reduction on tacos.", img: "/stock/tacos.jpg", vendorID: 6, EXP: 250},
-        {couponID: 3, couponName: "Tacos Coupon Large", description: "This is a coupon for a LARGE price reduction on tacos.", img: "/stock/tacos.jpg", vendorID: 6, EXP: 500},
+        {couponID: 1, couponName: "Tacos Coupon Small", description: "This is a coupon for a SMALL price reduction on tacos. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/tacos.jpg", vendorID: 6, EXP: 100},
+        {couponID: 2, couponName: "Tacos Coupon Medium", description: "This is a coupon for a MEDIUM price reduction on tacos. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/tacos.jpg", vendorID: 6, EXP: 250},
+        {couponID: 3, couponName: "Tacos Coupon Large", description: "This is a coupon for a LARGE price reduction on tacos. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/tacos.jpg", vendorID: 6, EXP: 500},
 
-        {couponID: 4, couponName: "Burgers Coupon Small", description: "This is a coupon for a SMALL price reduction on burgers.", img: "/stock/burger.jpg", vendorID: 7, EXP: 100},
-        {couponID: 5, couponName: "Burgers Coupon Medium", description: "This is a coupon for a MEDIUM price reduction on burgers.", img: "/stock/burger.jpg", vendorID: 7, EXP: 250},
-        {couponID: 6, couponName: "Burgers Coupon Large", description: "This is a coupon for a LARGE price reduction on burgers.", img: "/stock/burger.jpg", vendorID: 7, EXP: 500},
+        {couponID: 4, couponName: "Burgers Coupon Small", description: "This is a coupon for a SMALL price reduction on burgers. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/burger.jpg", vendorID: 7, EXP: 100},
+        {couponID: 5, couponName: "Burgers Coupon Medium", description: "This is a coupon for a MEDIUM price reduction on burgers. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/burger.jpg", vendorID: 7, EXP: 250},
+        {couponID: 6, couponName: "Burgers Coupon Large", description: "This is a coupon for a LARGE price reduction on burgers. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/burger.jpg", vendorID: 7, EXP: 500},
 
-        {couponID: 7, couponName: "Ice Cream Coupon Small", description: "This is a coupon for a SMALL price reduction on ice cream.", img: "/stock/icecream.jpg", vendorID: 8, EXP: 100},
-        {couponID: 8, couponName: "Ice Cream Coupon Medium", description: "This is a coupon for a MEDIUM price reduction on ice cream.", img: "/stock/icecream.jpg", vendorID: 8, EXP: 250},
-        {couponID: 9, couponName: "Ice Cream Coupon Large", description: "This is a coupon for a LARGE price reduction on ice cream.", img: "/stock/icecream.jpg", vendorID: 8, EXP: 500},
+        {couponID: 7, couponName: "Ice Cream Coupon Small", description: "This is a coupon for a SMALL price reduction on ice cream. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/icecream.jpg", vendorID: 8, EXP: 100},
+        {couponID: 8, couponName: "Ice Cream Coupon Medium", description: "This is a coupon for a MEDIUM price reduction on ice cream. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/icecream.jpg", vendorID: 8, EXP: 250},
+        {couponID: 9, couponName: "Ice Cream Coupon Large", description: "This is a coupon for a LARGE price reduction on ice cream. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/icecream.jpg", vendorID: 8, EXP: 500},
 
-        {couponID: 10, couponName: "Sushi Coupon Small", description: "This is a coupon for a SMALL price reduction on sushi.", img: "/stock/sushi.jpg", vendorID: 9, EXP: 100},
-        {couponID: 11, couponName: "Sushi Coupon Medium", description: "This is a coupon for a MEDIUM price reduction on sushi.", img: "/stock/sushi.jpg", vendorID: 9, EXP: 250},
-        {couponID: 12, couponName: "Sushi Coupon Large", description: "This is a coupon for a LARGE price reduction on sushi.", img: "/stock/sushi.jpg", vendorID: 9, EXP: 500},
+        {couponID: 10, couponName: "Sushi Coupon Small", description: "This is a coupon for a SMALL price reduction on sushi. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/sushi.jpg", vendorID: 9, EXP: 100},
+        {couponID: 11, couponName: "Sushi Coupon Medium", description: "This is a coupon for a MEDIUM price reduction on sushi. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/sushi.jpg", vendorID: 9, EXP: 250},
+        {couponID: 12, couponName: "Sushi Coupon Large", description: "This is a coupon for a LARGE price reduction on sushi. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/sushi.jpg", vendorID: 9, EXP: 500},
 
-        {couponID: 13, couponName: "Yoga Coupon Small", description: "This is a coupon for a SMALL price reduction on yoga lessons.", img: "/stock/yoga.jpg", vendorID: 10, EXP: 100},
-        {couponID: 14, couponName: "Yoga Coupon Medium", description: "This is a coupon for a MEDIUM price reduction on yoga lessons.", img: "/stock/yoga.jpg", vendorID: 10, EXP: 250},
-        {couponID: 15, couponName: "Yoga Coupon Large", description: "This is a coupon for a LARGE price reduction on yoga lessons.", img: "/stock/yoga.jpg", vendorID: 10, EXP: 500},
+        {couponID: 13, couponName: "Yoga Coupon Small", description: "This is a coupon for a SMALL price reduction on yoga lessons. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/yoga.jpg", vendorID: 10, EXP: 100},
+        {couponID: 14, couponName: "Yoga Coupon Medium", description: "This is a coupon for a MEDIUM price reduction on yoga lessons. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/yoga.jpg", vendorID: 10, EXP: 250},
+        {couponID: 15, couponName: "Yoga Coupon Large", description: "This is a coupon for a LARGE price reduction on yoga lessons. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/yoga.jpg", vendorID: 10, EXP: 500},
         
-        {couponID: 16, couponName: "Boutique Coupon Small", description: "This is a coupon for a SMALL price reduction on boutique goods.", img: "/stock/boutique.jpg", vendorID: 11, EXP: 100},
-        {couponID: 17, couponName: "Boutique Coupon Medium", description: "This is a coupon for a MEDIUM price reduction on boutique goods.", img: "/stock/boutique.jpg", vendorID: 11, EXP: 200},
-        {couponID: 18, couponName: "Boutique Coupon Large", description: "This is a coupon for a LARGE price reduction on boutique goods.", img: "/stock/boutique.jpg", vendorID: 11, EXP: 300},
+        {couponID: 16, couponName: "Boutique Coupon Small", description: "This is a coupon for a SMALL price reduction on boutique goods. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/boutique.jpg", vendorID: 11, EXP: 100},
+        {couponID: 17, couponName: "Boutique Coupon Medium", description: "This is a coupon for a MEDIUM price reduction on boutique goods. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/boutique.jpg", vendorID: 11, EXP: 200},
+        {couponID: 18, couponName: "Boutique Coupon Large", description: "This is a coupon for a LARGE price reduction on boutique goods. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/boutique.jpg", vendorID: 11, EXP: 300},
         
-        {couponID: 19, couponName: "Martial Arts Coupon Small", description: "This is a coupon for a SMALL price reduction on martial arts lessons.", img: "/stock/martial.jpg", vendorID: 12, EXP: 100},
-        {couponID: 20, couponName: "Martial Arts Coupon Medium", description: "This is a coupon for a MEDIUM price reduction on martial arts lessons.", img: "/stock/martial.jpg", vendorID: 12, EXP: 200},
-        {couponID: 21, couponName: "Martial Arts Coupon Large", description: "This is a coupon for a LARGE price reduction on martial arts lessons.", img: "/stock/martial.jpg", vendorID: 12, EXP: 300},
+        {couponID: 19, couponName: "Martial Arts Coupon Small", description: "This is a coupon for a SMALL price reduction on martial arts lessons. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/martial.jpg", vendorID: 12, EXP: 100},
+        {couponID: 20, couponName: "Martial Arts Coupon Medium", description: "This is a coupon for a MEDIUM price reduction on martial arts lessons. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/martial.jpg", vendorID: 12, EXP: 200},
+        {couponID: 21, couponName: "Martial Arts Coupon Large", description: "This is a coupon for a LARGE price reduction on martial arts lessons. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/martial.jpg", vendorID: 12, EXP: 300},
         
-        {couponID: 22, couponName: "Ramen Coupon Small", description: "This is a coupon for a SMALL price reduction on ramen.", img: "/stock/ramen.jpg", vendorID: 13, EXP: 100},
-        {couponID: 23, couponName: "Ramen Coupon Medium", description: "This is a coupon for a MEDIUM price reduction on ramen.", img: "/stock/ramen.jpg", vendorID: 13, EXP: 200},
-        {couponID: 24, couponName: "Ramen Coupon Large", description: "This is a coupon for a LARGE price reduction on ramen.", img: "/stock/ramen.jpg", vendorID: 13, EXP: 300},
+        {couponID: 22, couponName: "Ramen Coupon Small", description: "This is a coupon for a SMALL price reduction on ramen. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/ramen.jpg", vendorID: 13, EXP: 100},
+        {couponID: 23, couponName: "Ramen Coupon Medium", description: "This is a coupon for a MEDIUM price reduction on ramen. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/ramen.jpg", vendorID: 13, EXP: 200},
+        {couponID: 24, couponName: "Ramen Coupon Large", description: "This is a coupon for a LARGE price reduction on ramen. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/ramen.jpg", vendorID: 13, EXP: 300},
         
-        {couponID: 25, couponName: "Baseball Coupon Small", description: "This is a coupon for a SMALL price reduction on something at a baseball game.", img: "/stock/baseball.jpg", vendorID: 14, EXP: 100},
-        {couponID: 26, couponName: "Baseball Coupon Medium", description: "This is a coupon for a MEDIUM price reduction on something at a baseball game.", img: "/stock/baseball.jpg", vendorID: 14, EXP: 200},
-        {couponID: 27, couponName: "Baseball Coupon Large", description: "This is a coupon for a LARGE price reduction on something at a baseball game.", img: "/stock/baseball.jpg", vendorID: 14, EXP: 300},
+        {couponID: 25, couponName: "Baseball Coupon Small", description: "This is a coupon for a SMALL price reduction on something at a baseball game. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/baseball.jpg", vendorID: 14, EXP: 100},
+        {couponID: 26, couponName: "Baseball Coupon Medium", description: "This is a coupon for a MEDIUM price reduction on something at a baseball game. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/baseball.jpg", vendorID: 14, EXP: 200},
+        {couponID: 27, couponName: "Baseball Coupon Large", description: "This is a coupon for a LARGE price reduction on something at a baseball game. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/baseball.jpg", vendorID: 14, EXP: 300},
         
-        {couponID: 28, couponName: "Record Store Coupon Small", description: "This is a coupon for a SMALL price reduction on records.", img: "/stock/record.jpg", vendorID: 15, EXP: 100},
-        {couponID: 29, couponName: "Record Store Coupon Medium", description: "This is a coupon for a MEDIUM price reduction on records.", img: "/stock/record.jpg", vendorID: 15, EXP: 200},
-        {couponID: 30, couponName: "Record Store Coupon Large", description: "This is a coupon for a LARGE price reduction on records.", img: "/stock/record.jpg", vendorID: 15, EXP: 300},
+        {couponID: 28, couponName: "Record Store Coupon Small", description: "This is a coupon for a SMALL price reduction on records. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/record.jpg", vendorID: 15, EXP: 100},
+        {couponID: 29, couponName: "Record Store Coupon Medium", description: "This is a coupon for a MEDIUM price reduction on records. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/record.jpg", vendorID: 15, EXP: 200},
+        {couponID: 30, couponName: "Record Store Coupon Large", description: "This is a coupon for a LARGE price reduction on records. The QR code can't be redeemed correctly yet. Please click on it.", img: "/stock/record.jpg", vendorID: 15, EXP: 300},
     ]
 
 });

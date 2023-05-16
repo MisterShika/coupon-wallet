@@ -1,17 +1,49 @@
 
 /** Having some issues with Google Fonts and Tailwind. Just going to use this file instead and come back to fix it later. **/
-#mainh1{
+h1{
 	font-family: 'Lobster', cursive;
-	font-size: 5em;
-}
-form label{
-	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 2em;
 }
 
+form label,
+.following-text,
+.single-coupon h2{
+	font-family: 'Roboto Condensed', sans-serif;
+}
 
 /** Fontawesome spin is way too fast. Slowing it down. **/
 .custom-spin{
 	-webkit-animation: fa-spin 10s infinite linear !important;
 	animation: fa-spin 10s infinite linear !important;
 }
+
+/** Tailwind wasn't providing exactly what I wanted **/
+aside{
+	-webkit-box-shadow: 5px 0px 10px black;
+	-moz-box-shadow: 5px 0px 10px black;
+	box-shadow: 5px 0px 10px black;
+}
+
+/** Styling for dynamic QR code image **/
+.qr-box img{
+	margin: 0 auto;
+}
+  
+/** Bounce for redeeming coupons **/
+.bounce-enter-active {
+	animation: bounce-in 0.5s;
+}
+.bounce-leave-active {
+	animation: bounce-in 0.5s reverse;
+}
+@keyframes bounce-in {
+	0% {
+		transform: scale(0);
+	}
+	50% {
+		transform: scale(1.1);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
