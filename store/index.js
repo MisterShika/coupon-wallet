@@ -1,6 +1,4 @@
 export const state = () => ({
-    
-    counter: 0,
 
     //Example Account Data
 
@@ -91,5 +89,15 @@ export const mutations = {
                 user.couponsUsed.push(coupon);
             }
         }
+    },
+    addCouponByLevel(state, coupon) {
+        const vendor = state.accounts.find((vendor) => vendor.userID === coupon.vendorID);
+        state.coupons.push(coupon);
+        vendor.couponsOffered.push(coupon.couponID);
+        vendor.followedBy.forEach(element => {
+            let followingUser = state.accounts.find((user) => user.userID === element);
+            followingUser.couponsOwned.push(coupon.couponID);
+        });
     }
+
 }
