@@ -23,7 +23,7 @@ aside{
 	box-shadow: 5px 0px 10px black;
 }
 
-/** Styling for dynamic QR code image **/
+/** Styling for dynamic QR code image. Some redundancy because android and iPhone were having issues. **/
 .qr-box{
 	width: 100%;
 }
@@ -31,6 +31,9 @@ aside{
 	max-width: 100%;
 	height: auto;
 	margin: 0 auto;
+}
+.qr-box canvas{
+	max-width: 100%;
 }
   
 /** Bounce for redeeming coupons **/
