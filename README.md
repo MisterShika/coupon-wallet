@@ -17,36 +17,15 @@ Users will also have a list of vendors they "follow" or "subscribe" to.</p>
 
 <p>Vendors will be able to distribute coupons individually, by followers, or by followers according to level.</p>
 
-### Standard Use Flow
+### Basic operational flow of the application
 
 <ol>
-    <li>Vendors distribute coupons.</li>
+    <li>Vendors distribute coupons (according to ID or follower level).</li>
     <li>Users receive coupons.</li>
     <li>Users convert coupon into QR code.</li>
-    <li>Vendors redeem user's QR code.</li>
+    <li>Vendors read QR code with their device. (only vendors can redeem coupons)</li>
     <li>Users receive experience according to the coupon.</li>
 </ol>
-
-### Color Notes (So I don't forget)
-
-Greens
-<ul>
-    <li>#323620</li>
-    <li>#445117</li>
-    <li>#67793B</li>
-    <li>#809A67</li>
-    <li>#C7DABC</li>
-</ul>
-
-Oranges
-<ul>
-    <li>#F27227</li>
-    <li>#FF9900</li>
-    <li>#FFB347</li>
-    <li>#FFCC66</li>
-    <li>#FFDAB9</li>
-</ul>
-
 
 ## (Saving all of these JUST IN CASE I forget)
 
