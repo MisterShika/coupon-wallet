@@ -15,7 +15,7 @@
                     <coupon-create :passedVendorID="this.$store.state.loggedIn.loggedID" />
                 </div>
             </div>
-            <div v-else class="text-center"> 
+            <div v-if="!this.$store.state.loggedIn.loggedStatus" class="text-center"> 
                 <login />
             </div>
         </div>
