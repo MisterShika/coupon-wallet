@@ -24,6 +24,9 @@ aside{
 }
 
 /** Styling for dynamic QR code image **/
+.qr-box{
+	width: 100%;
+}
 .qr-box img{
 	max-width: 100%;
 	height: auto;
