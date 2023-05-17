@@ -25,12 +25,12 @@
       }
     },
     methods: {
+      // Async login JUST IN CASE Nuxt would try to route to the user page without actually updating login
       async submitForm() {
-
         const account = await this.$store.state.accounts.find(element => element.userName === this.username);
-
         if(account){
           if(account.password === this.password){
+            // If account is found and password matches state is updated and page is routed
             this.$store.commit('updateLogIn', account.userID)
             console.log("Success!");
             this.$nuxt.$router.push('/user');

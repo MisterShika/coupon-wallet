@@ -4,7 +4,9 @@
             
             <img class="w-1/2 mx-auto rounded-xl md:w-auto" :src="accountData.img" :alt="accountData.userNam" />
             <h2 class="text-xl text-red-600">{{ accountData.userName }}</h2>
+            <!-- Display and animate experience -->
             <div><exp-display :passedUserID="accountData.userID" /></div>
+            <!-- Display followers/followed by data -->
             <followlist :passedUserID="accountData.userID" :passedUserType="accountData.userType" />
             <button class="cursor-pointer rounded-3xl text-white bg-red-400 py-2.5 px-5 my-4 hover:bg-red-600 duration-500"  @click="handleLogOut()">Logout</button>
         </div>

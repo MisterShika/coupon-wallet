@@ -5,6 +5,7 @@
 </template>
   
 <script>
+    // Nuxt recommended using gsap. I'm unsure if there's a better animation/tween to animate numbers increasing.
     import gsap from 'gsap'
 
     export default {
