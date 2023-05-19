@@ -1,5 +1,12 @@
 # coupon-wallet
 
+The application is hosted on AWS and can be found at:
+https://master.d3b8jo3r95jdhn.amplifyapp.com/
+
+All accounts have the password of 12345.
+Accounts user1 - user5 are all designated as "user" accounts.
+Accounts user6 - user15 are "vendor" accounts.
+
 ## Project Outline
 
 ### Accounts
